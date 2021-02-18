@@ -9,7 +9,7 @@ function App() {
   return (
     <Router>
     <div className="App">
-      <Navbar bg="light" expand="lg">
+      <Navbar bg="dark" variant="dark" expand="lg">
   <Navbar.Brand href="/" >
   My Music Store
   </Navbar.Brand>
@@ -19,13 +19,13 @@ function App() {
     <Nav className="mr-auto">
       <NavDropdown title="Songs" id="basic-nav-dropdown">
         <NavDropdown.Item href="/LemonTree">
-          Song1
+          Lemon Tree
           </NavDropdown.Item>
-          <NavDropdown.Item>
-          <Link to="/StayinAlive">Song2</Link>
+          <NavDropdown.Item href="/StayinAlive">
+          Stayin Alive
           </NavDropdown.Item>
-          <NavDropdown.Item>
-          <Link to="/SweetChild">Song3</Link>
+          <NavDropdown.Item href="/SweetChild">
+          Sweet Child
           </NavDropdown.Item>
       </NavDropdown>
     </Nav>
